@@ -19,7 +19,7 @@ login.onclick = (e) => {
       return false;
    }
    else {
-      alert('great job');
+      alert('Successful Login');
    }
    return reval;
 }

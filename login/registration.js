@@ -6,7 +6,7 @@ btn.onclick = () => {
   let revalue = true;
 
   const name = document.getElementById('fname').value;
-  if (name.length < 10) {
+  if (name.length < 2) {
     alert("name length is too short");
     return false
   }
